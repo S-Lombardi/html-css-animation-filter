@@ -137,3 +137,22 @@
 .ex-9-img{
     transition: 2s;
 }
+
+/* ESERCIZIO 10 */
+.ex-10-icon{
+    animation:upload 1s linear infinite;
+}
+
+@keyframes upload{
+    0%{
+        transform: rotate(360deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
