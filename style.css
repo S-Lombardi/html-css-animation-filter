@@ -111,3 +111,11 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+/* ESERCIZIO 7 */
+.ex-7-img:hover{
+    border-radius: 10%;
+    filter: sepia(70%);
+}
+.ex-7-img{
+    transition: 2s;
+}
